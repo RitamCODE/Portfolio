@@ -1,5 +1,5 @@
 /* Reset some default styles */
-body, h1, h2, p, ul {
+body, h1, h2, p, ul, a {
     margin: 0;
     padding: 0;
 }
@@ -7,14 +7,12 @@ body, h1, h2, p, ul {
 /* Global styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
 }
 
 .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -39,21 +37,61 @@ header {
     width: 150px; /* Adjust image size */
     height: 150px;
     border-radius: 50%; /* Make the image circular */
-    margin-right: -700%; /* Add space between text and image */
+    margin-right: -650%; /* Add space between text and image */
 }
 
 h1 {
-    margin: 0; /* Remove default margin for the heading */
+    margin: 0;
 }
-
 
 /* Section styles */
 section {
     margin-bottom: 20px;
+    padding: 20px;
 }
 
-h1 {
-    font-size: 36px;
+.about-me {
+    background-color: #f2f2f2;
+}
+
+.education {
+    background-color: #FFD700;
+}
+
+.experience {
+    background-color: #FFA07A;
+}
+
+.skills {
+    background-color: #98FB98;
+}
+
+.hobbies {
+    background-color: #87CEFA;
+}
+
+.patents {
+    background-color: #FF69B4;
+}
+
+.profile-links {
+    background-color: #00CED1;
+}
+
+.projects {
+    background-color: #FFD700;
+}
+
+.contact-details {
+    background-color: #20B2AA;
+}
+
+.extracurricular {
+    background-color: #FFA07A;
+}
+
+.cv {
+    background-color: #98FB98;
 }
 
 h2 {
